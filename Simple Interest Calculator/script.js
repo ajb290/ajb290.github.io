@@ -9,7 +9,7 @@ function compute()
     var amount = parseInt(principal) + parseFloat(interest);
     var result = document.getElementById("result");
 
-    
+    var year = new Date().getFullYear() + parseInt(years);
 }
 
 function updateRate() {
