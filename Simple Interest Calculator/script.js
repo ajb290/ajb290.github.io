@@ -13,9 +13,11 @@ function compute()
 
     if (principal <= 0) {
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
     }
-
     
+
+
 }
 
 function updateRate() {
