@@ -10,6 +10,12 @@ function compute()
     var result = document.getElementById("result");
 
     var year = new Date().getFullYear() + parseInt(years);
+
+    if (principal <= 0) {
+        alert("Enter a positive number");
+    }
+
+    
 }
 
 function updateRate() {
